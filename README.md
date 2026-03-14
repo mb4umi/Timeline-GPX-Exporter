@@ -7,7 +7,8 @@ I created this because I needed an easy way to find time stamps from the last ye
 
 To do this, on your Android device go to **settings > Location > Timeline > Export Timeline data**.  
 
-2. Place the exported Timeline.json file into the same folder as Timeline-GPX-Exporter.py
+2. Place the exported Timeline.json file into the same folder as Timeline-GPX-Exporter.py. 
+   * If this process instead produces a location-history.json file thats OK, the script will automatically detect and parse this format as well. Do not rename the file. 
 
 3. Run Timeline-GPX-Exporter.py script. Daily GPX logs with be generated in ./GPX_Output with the format YYYY-MM-DD.gpx. 
 
