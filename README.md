@@ -1,7 +1,8 @@
 # Timeline-GPX-Exporter
-Convert Google Timelines new JSON exported from an Android device to daily GPX log files
 
-I created this because I needed an easy way to find time stamps from the last year of my raw timeline data, a function that irritatingly no longer exists since timeline went device only with the now very limited Android Maps Timeline interface.
++++ This is an edited version of the original script, removing dependencies and making it work with the current Timeline.json exports by Google. (Current as in April 2026). +++
+
+Convert Google Timelines new JSON exported from an Android device to daily GPX log files
 
 1. Export timeline data from your Android device. 
 
